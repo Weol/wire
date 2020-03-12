@@ -136,3 +136,5 @@ if file.Find("wire/uwsvn_load.lua","LUA")[1] then
 end
 
 if SERVER then print("Wiremod Version '"..WireLib.GetVersion().."' loaded") end
+
+hook.Run("WiremodLoaded")
